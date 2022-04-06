@@ -126,3 +126,9 @@ class USD(Currency):
     symbol = ("US$", "")
     decimal = "."
     milliard = ","
+
+
+class EUR(Currency):
+    symbol = ("", "€")
+    decimal = ","
+    milliard = " "
